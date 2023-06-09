@@ -55,6 +55,13 @@ export default function Home({
           </h2>
         )}
 
+        <h3>Liens de test :</h3>
+        <ul>
+          <li><a href="/movies">/movies</a></li>
+          <li><a href="/api/movies">/api/movies</a></li>
+          <li><a href="/top">/top</a></li>
+        </ul>
+
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
