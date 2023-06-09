@@ -70,7 +70,7 @@ When you are successfully connected, you can refer to the [MongoDB Node.js Drive
 
 For the <DBNAME>, we'll load the MongoDB Atlas sample datasets and use one of those databases. To load the sample datasets, in your MongoDB Atlas dashboard under your chosen Cluster, click the ... button and hit Load Sample Dataset option. This will take a few minutes to load the data and create the various databases. The one we'll use for this tutorial is called sample_mflix, so you'll set your <DBNAME> value to that.
 
-!https://www.mongodb.com/developer/_next/image/?url=https%3A%2F%2Fmongodb-devhub-cms.s3.us-west-1.amazonaws.com%2FMongo_DB_Sample_Dataset_e8b5295aa2.png&w=1920&q=75
+![](https://www.mongodb.com/developer/_next/image/?url=https%3A%2F%2Fmongodb-devhub-cms.s3.us-west-1.amazonaws.com%2FMongo_DB_Sample_Dataset_e8b5295aa2.png&w=1920&q=75)
 
 ## Deploy on Vercel
 
