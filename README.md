@@ -4,6 +4,7 @@
 
 If you want to learn more about MongoDB, visit the following pages:
 
+- [How to Integrate MongoDB Into Your Next.js App](https://www.mongodb.com/developer/languages/javascript/nextjs-with-mongodb/)
 - [MongoDB Atlas](https://mongodb.com/atlas)
 - [MongoDB Documentation](https://docs.mongodb.com/)
 
@@ -64,6 +65,12 @@ Your app should be up and running on [http://localhost:3000](http://localhost:30
 You will either see a message stating "You are connected to MongoDB" or "You are NOT connected to MongoDB". Ensure that you have provided the correct `MONGODB_URI` environment variable.
 
 When you are successfully connected, you can refer to the [MongoDB Node.js Driver docs](https://mongodb.github.io/node-mongodb-native/3.4/tutorials/collections/) for further instructions on how to query your database.
+
+## Loader database
+
+For the <DBNAME>, we'll load the MongoDB Atlas sample datasets and use one of those databases. To load the sample datasets, in your MongoDB Atlas dashboard under your chosen Cluster, click the ... button and hit Load Sample Dataset option. This will take a few minutes to load the data and create the various databases. The one we'll use for this tutorial is called sample_mflix, so you'll set your <DBNAME> value to that.
+
+!https://www.mongodb.com/developer/_next/image/?url=https%3A%2F%2Fmongodb-devhub-cms.s3.us-west-1.amazonaws.com%2FMongo_DB_Sample_Dataset_e8b5295aa2.png&w=1920&q=75
 
 ## Deploy on Vercel
 
